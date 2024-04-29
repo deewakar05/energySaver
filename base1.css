@@ -1,0 +1,73 @@
+/* .font{
+    background-color: green;
+    margin: 0px 15%;
+} */
+.heading{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content{
+    display: inline;
+    font-size: 25px;
+    color: black;
+}
+
+.cs{
+    color: black;
+}
+.content1{
+    margin: 0 15px;
+}
+.project{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px black solid;
+    background-color: green;
+}
+
+#teams h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #0de60d;
+}
+#teams p{
+    font-size: 20px;
+}
+#teams .wrapper .card-items{
+    display: flex;
+    margin-top: -50px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+#teams .wrapper .card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(138, 155, 71);
+    border-radius: 5px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 280px;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+#teams .wrapper .card:hover{
+    background: #0A2940;
+}
+
+#teams .wrapper .card-items a{
+    text-decoration: none;
+    text-align:end;
+}
+#teams .wrapper .card-items a:hover{
+    color:blue;
+}
